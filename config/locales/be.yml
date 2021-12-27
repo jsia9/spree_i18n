@@ -633,9 +633,9 @@ be:
     date: Дата
     date_completed: Дата завяршэння
     date_picker:
-      first_day: 1
-      format: "%d.%m.%Y"
-      js_format: dd/mm/yy
+      # FlatPickr human friendly formatting
+      fpr_human_friendly_date_format: M j, Y
+      fpr_human_friendly_date_time_format: M j, Y - H:i
     date_range: Перыяд часу
     default: Па змаўчанні
     default_refund_amount: Сума вяртання па змаўчанні
@@ -748,7 +748,7 @@ be:
       available_locales: Даступныя пераклады
       language: Мова
       localization_settings: Налады лакалізацыі
-      this_file_language: Belarusian
+      this_file_language: Belarusian (BE)
     icon: Pначок
     identifier: Ідэнтыфікатар
     image: Малюнак
@@ -815,7 +815,7 @@ be:
     lock: Закрыта
     log_entries: Запісы журнала
     logged_in_as: Карыстальнік
-    logged_in_succesfully: Вы ўвайшлі ў сістэму
+    logged_in_successfully: Вы ўвайшлі ў сістэму
     logged_out: Вы выйшлі з сістэмы.
     login: Лагін
     login_as_existing: Увайсці як пакупнік

@@ -597,9 +597,9 @@ nl:
     date: Datum
     date_completed: Datum voluit
     date_picker:
-      first_day: Eerste Dag
-      format: "%d/%m/%Y"
-      js_format: dd/mm/yy
+      # FlatPickr human friendly formatting
+      fpr_human_friendly_date_format: M j, Y
+      fpr_human_friendly_date_time_format: M j, Y - H:i
     date_range: Datumbereik
     default: Standaard
     default_refund_amount: Standaard Refundvergoeding
@@ -770,7 +770,7 @@ nl:
     lock: Vergrendel
     log_entries: Logregels
     logged_in_as: aangemeld als
-    logged_in_succesfully: Je bent aangemeld
+    logged_in_successfully: Je bent aangemeld
     logged_out: Je bent nu afgemeld.
     login: Aanmelden
     login_as_existing: Meld aan als bestaande klant

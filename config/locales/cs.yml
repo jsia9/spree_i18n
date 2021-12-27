@@ -591,9 +591,9 @@ cs:
     date: Datum
     date_completed: Datum dokončení
     date_picker:
-      first_day: 1
-      format: "%d.%m.%Y"
-      js_format: dd.mm.yy
+      # FlatPickr human friendly formatting
+      fpr_human_friendly_date_format: M j, Y
+      fpr_human_friendly_date_time_format: M j, Y - H:i
     date_range: Datum (od-do)
     default: Výchozí
     default_refund_amount: Výchozí částka refundace
@@ -763,7 +763,7 @@ cs:
     lock: Uzamknout
     log_entries: Záznamy logu
     logged_in_as: Přihlášen jako
-    logged_in_succesfully: Přihlášení proběhlo úspěšně
+    logged_in_successfully: Přihlášení proběhlo úspěšně
     logged_out: Byli jste odhlášeni
     login: Přihlášení
     login_as_existing: Přihlásit se jako existující zákazník

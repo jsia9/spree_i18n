@@ -519,9 +519,9 @@ ko:
     date:
     date_completed:
     date_picker:
-      first_day:
-      format:
-      js_format:
+      # FlatPickr human friendly formatting
+      fpr_human_friendly_date_format: M j, Y
+      fpr_human_friendly_date_time_format: M j, Y - H:i
     date_range: "날짜 범위"
     default: "기본"
     default_refund_amount:
@@ -690,7 +690,7 @@ ko:
     lock:
     log_entries:
     logged_in_as:
-    logged_in_succesfully: "로그인 성공"
+    logged_in_successfully: "로그인 성공"
     logged_out: "로그아웃 되었습니다."
     login: "로그인"
     login_as_existing:

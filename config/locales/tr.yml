@@ -519,9 +519,9 @@ tr:
     date: Tarih
     date_completed: Tarih Tamamlandı
     date_picker:
-      first_day:
-      format: "%d.%m%Y"
-      js_format: dd.mm.yyyy
+      # FlatPickr human friendly formatting
+      fpr_human_friendly_date_format: M j, Y
+      fpr_human_friendly_date_time_format: M j, Y - H:i
     date_range: Tarih Aralığı
     default: Varsayılan
     default_refund_amount:
@@ -688,7 +688,7 @@ tr:
     lock: Kilitle
     log_entries: Log kayıtları
     logged_in_as: 'Açılan Oturum: '
-    logged_in_succesfully: Giriş Başarılı
+    logged_in_successfully: Giriş Başarılı
     logged_out: "Çıkış Yaptınız."
     login: Giriş
     login_as_existing: Varolan bir müşteri hesabıyla giriş yap

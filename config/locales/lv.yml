@@ -560,9 +560,9 @@ lv:
     date:
     date_completed:
     date_picker:
-      first_day:
-      format:
-      js_format:
+      # FlatPickr human friendly formatting
+      fpr_human_friendly_date_format: M j, Y
+      fpr_human_friendly_date_time_format: M j, Y - H:i
     date_range: Datuma diapazons
     default:
     default_refund_amount:
@@ -731,7 +731,7 @@ lv:
     lock:
     log_entries:
     logged_in_as: Pieslēgties kā
-    logged_in_succesfully: Pieslēgšanās veiksmīga
+    logged_in_successfully: Pieslēgšanās veiksmīga
     logged_out: Jūs esat atslēgts no sistēmas.
     login: Pieslēgties
     login_as_existing: Pieslēgties kā esošais klients

@@ -559,9 +559,9 @@ th:
     date: "วันที่"
     date_completed: "วันที่เสร็จสิ้น"
     date_picker:
-      first_day:
-      format: "%Y/%m/%d"
-      js_format: yy/mm/dd
+      # FlatPickr human friendly formatting
+      fpr_human_friendly_date_format: M j, Y
+      fpr_human_friendly_date_time_format: M j, Y - H:i
     date_range: "ช่วงวันที่"
     default: "ค่าเริ่มต้น"
     default_refund_amount:
@@ -730,7 +730,7 @@ th:
     lock: "ล๊อก"
     log_entries:
     logged_in_as: "เข้าสู่ระบบเป็น"
-    logged_in_succesfully: "เข้าสู่ระบบสำเร็จ"
+    logged_in_successfully: "เข้าสู่ระบบสำเร็จ"
     logged_out: "คุณได้ออกจากระบบแล้ว"
     login: "เข้าสู่ระบบ"
     login_as_existing: "เข้าสู่ระบบจากบัญขีที่มีอยู่แล้ว"

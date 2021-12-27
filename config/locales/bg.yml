@@ -629,9 +629,9 @@ bg:
     date: Дата
     date_completed:
     date_picker:
-      first_day: 0
-      format: '%Y/%m/%d'
-      js_format: yy/mm/dd
+      # FlatPickr human friendly formatting
+      fpr_human_friendly_date_format: M j, Y
+      fpr_human_friendly_date_time_format: M j, Y - H:i
     date_range:
     default: По подразбиране
     default_refund_amount: Стойност по подразбиране
@@ -725,6 +725,7 @@ bg:
     flat_percent: Плосък процент
     flat_rate_per_order: Пропорционална такса (на поръчка)
     flexible_rate: Гъвкав курс
+    follow_us: Последвайте ни
     forgot_password: Забравена парола
     free_shipping: Безплатна доставка
     free_shipping_amount:
@@ -747,7 +748,7 @@ bg:
       available_locales: Достъпни места
       language: Език
       localization_settings: Настройки за локализация
-      this_file_language: Български (БГ)
+      this_file_language: Български (BG)
     icon: Икона
     identifier:
     image: Образ
@@ -809,7 +810,7 @@ bg:
     lock: Закючи
     log_entries:
     logged_in_as: Влезте като
-    logged_in_succesfully: Успешно влизане
+    logged_in_successfully: Успешно влизане
     logged_out: Успешен изход.
     login: Вход
     login_as_existing: Влезте като настоящ клиент

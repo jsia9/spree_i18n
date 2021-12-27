@@ -608,9 +608,9 @@ es-CL:
     date: Fecha
     date_completed: Fecha completada
     date_picker:
-      first_day: 1
-      format: "%d/%m/%Y"
-      js_format: dd/mm/yy
+      # FlatPickr human friendly formatting
+      fpr_human_friendly_date_format: M j, Y
+      fpr_human_friendly_date_time_format: M j, Y a \\la\\s H:i
     date_range: Rango de fechas
     default: Por defecto
     default_refund_amount: Valor por defecto del reembolso
@@ -717,7 +717,7 @@ es-CL:
       available_locales: Locales Disponibles
       language: Idioma
       localization_settings: Ajustes de Localización
-      this_file_language: Español (Chile)
+      this_file_language: Español (es-CL)
     icon: Icono
     image: Imagen
     images: Imágenes
@@ -778,7 +778,7 @@ es-CL:
     log_entries: "Registros de entrada"
     logs: Registros
     logged_in_as: Identificado como
-    logged_in_succesfully: Conectado con éxito
+    logged_in_successfully: Conectado con éxito
     logged_out: Se ha cerrado la sesión.
     login: Login
     login_as_existing: Deseo ingresar con mi cuenta
@@ -1365,7 +1365,7 @@ es-CL:
       choose_users: Escoje Usuarios
     users: Usuarios
     validation:
-      unpaid_amount_not_zero: "La cantidad no fue totalmente reembolsada. Aún así: % {amount}"
+      unpaid_amount_not_zero: "La cantidad no fue totalmente reembolsada. Aún así: %{amount}"
       cannot_be_less_than_shipped_units: no puede ser menor que el número de unidades enviadas.
       cannot_destroy_line_item_as_inventory_units_have_shipped: No se puede eliminar artículo ya que algunas unidades se han enviado.
       exceeds_available_stock: excede el stock disponible. Por favor asegúrate que los artículos tienen un cantidad válida.

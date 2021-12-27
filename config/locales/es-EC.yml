@@ -567,9 +567,9 @@ es-EC:
     date: Fecha
     date_completed: Fecha completada
     date_picker:
-      first_day: 1
-      format: "%d/%m/%Y"
-      js_format: dd/mm/yy
+      # FlatPickr human friendly formatting
+      fpr_human_friendly_date_format: M j, Y
+      fpr_human_friendly_date_time_format: M j, Y a \\la\\s H:i
     date_range: Rango de fechas
     default: Por defecto
     default_refund_amount:
@@ -679,7 +679,7 @@ es-EC:
       available_locales: Locales Disponibles
       language: Idioma
       localization_settings: Ajustes Localización
-      this_file_language: Español
+      this_file_language: Español (es-EC)
     icon: Icono
     identifier:
     image: Imagen
@@ -738,7 +738,7 @@ es-EC:
     lock: Bloquear
     log_entries:
     logged_in_as: Identificado como
-    logged_in_succesfully: Conectado con éxito
+    logged_in_successfully: Conectado con éxito
     logged_out: Se ha cerrado la sesión.
     login: Validación
     login_as_existing: Validarse como cliente existente
